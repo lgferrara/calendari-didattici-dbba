@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Event Calendar</title>
+    <style>
+        /* Basic reset to remove default margins and paddings */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        /* Container for the calendar */
+        .calendar-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header styling */
+        .calendar-header {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .calendar-header h1 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        /* Responsive iframe container */
+        .calendar-iframe {
+            position: relative;
+            padding-bottom: 75%; /* Aspect ratio: 4:3 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #f4f4f4;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .calendar-iframe iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <h1>Calendario Lezioni</h1>
+        </div>
+
+
+        <div class="calendar-container">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FRome&bgcolor=%23ffffff&showTitle=0&mode=WEEK&src=NGQzNzQyMDgwMDQ5YTE0OTJkMDhkZjM1ZjUwNTc0OWFiZjY0NjQ5ODg2ZGI4YTk4NGQ5OWRkZWU2M2FlZGJhYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWZlZTQxOWMzMGE3MjcyZDdlZjZhNzNkMGUxZDRjZDkzMmVkZDcxMTMxY2U1MWNlNGMxNWNhZDc3MGE4NzhhNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YTMzODc5YjYzMTMyM2E1MDc4Zjg5MzhkYjU5Yzg4NzA3MTMzZDA1MDM5OTYyNmZjY2U3NTBhZGY1Mjc5MzlmM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZGZiODE0ZTFjNGFhNzZiYzA1ZTM3Mzk4MDNiYTc4YjcwN2ZhYjc4ZGY3ZjlmZmQ5OTcwZDUxMjM5ZWM5N2M0OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NDdkZTU5NWZkNTU1NDllODRkYjNhNjA2Yjc4ZDUzMTU4NTU1YTg2MDMzMDk1YWFiZTM5NGMyOTg0MmVmOTA5YUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=M2E1ZjkwNDM5MDQzNTE4YjMxNjU5NGNiOWQyNDAxNDgyYzAwMDY0YzJiZmQ5YTIwOTRlMGNmOTFjMTc5OTUwOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YzE0MGM2ZGIyNzA5YWM5OGZhZDc3ZjgxZGY4YTI3OWE1ZGEyMjZmMWE2OWYyMjA5Mzk5ZjFiNDg1ZThiZWFkY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ODk5MWQzNmI1YmUzMDU0OGRjYWM2OTNiYzY5MDc2M2JhMWNkMGI3NzdlMjJmZGNiMmNiOTcyZmJjODM1NjI5NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZDYxZTgxZjY3OTljY2JmMTY3ZmVkZDkwOThkZTYxYmYyNjlmMGU0NjI5YTY0MmYwZWMxNGIyN2QxYjJhYTllNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4uaXRhbGlhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%233F51B5&color=%23F09300&color=%23AD1457&color=%237CB342&color=%233F51B5&color=%23C0CA33&color=%23EF6C00&color=%23F09300&color=%23D50000&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
