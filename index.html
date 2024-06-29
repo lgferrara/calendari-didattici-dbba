@@ -14,16 +14,16 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f4f4f4;
+            background-color: #74ff4676;
             padding: 20px;
         }
 
         /* Container for the calendar */
         .calendar-container {
-            max-width: 900px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 10px;
-            background-color: #fff;
+            background-color: #67eb3ba6;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
@@ -58,18 +58,40 @@
             height: 100%;
             border: 0;
         }
+
     </style>
 </head>
 <body>
 
     <div class="calendar-container">
         <div class="calendar-header">
-            <h1>Calendario Lezioni</h1>
+            <h1>Calendario Aule</h1>
         </div>
 
 
-        <div class="calendar-container">
+        <div class="calendar-iframe">
             <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FRome&bgcolor=%23ffffff&showTitle=0&mode=WEEK&src=NGQzNzQyMDgwMDQ5YTE0OTJkMDhkZjM1ZjUwNTc0OWFiZjY0NjQ5ODg2ZGI4YTk4NGQ5OWRkZWU2M2FlZGJhYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWZlZTQxOWMzMGE3MjcyZDdlZjZhNzNkMGUxZDRjZDkzMmVkZDcxMTMxY2U1MWNlNGMxNWNhZDc3MGE4NzhhNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YTMzODc5YjYzMTMyM2E1MDc4Zjg5MzhkYjU5Yzg4NzA3MTMzZDA1MDM5OTYyNmZjY2U3NTBhZGY1Mjc5MzlmM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZGZiODE0ZTFjNGFhNzZiYzA1ZTM3Mzk4MDNiYTc4YjcwN2ZhYjc4ZGY3ZjlmZmQ5OTcwZDUxMjM5ZWM5N2M0OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NDdkZTU5NWZkNTU1NDllODRkYjNhNjA2Yjc4ZDUzMTU4NTU1YTg2MDMzMDk1YWFiZTM5NGMyOTg0MmVmOTA5YUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=M2E1ZjkwNDM5MDQzNTE4YjMxNjU5NGNiOWQyNDAxNDgyYzAwMDY0YzJiZmQ5YTIwOTRlMGNmOTFjMTc5OTUwOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YzE0MGM2ZGIyNzA5YWM5OGZhZDc3ZjgxZGY4YTI3OWE1ZGEyMjZmMWE2OWYyMjA5Mzk5ZjFiNDg1ZThiZWFkY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ODk5MWQzNmI1YmUzMDU0OGRjYWM2OTNiYzY5MDc2M2JhMWNkMGI3NzdlMjJmZGNiMmNiOTcyZmJjODM1NjI5NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZDYxZTgxZjY3OTljY2JmMTY3ZmVkZDkwOThkZTYxYmYyNjlmMGU0NjI5YTY0MmYwZWMxNGIyN2QxYjJhYTllNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4uaXRhbGlhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%233F51B5&color=%23F09300&color=%23AD1457&color=%237CB342&color=%233F51B5&color=%23C0CA33&color=%23EF6C00&color=%23F09300&color=%23D50000&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+
+    </div>
+
+    <!-- CONTAINER PER CALENDARI TRIENNALI --> 
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <h1>Calendari Triennali</h1>
+        </div>
+        <div class="calendar-iframe">
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpLtOhDt6XWyY2Wj-OzgKD0urlkvQsxkNRXIZBZNC5uCX1MTdx9hDSsjvX9lkKVA/pubhtml?widget=true&amp;headers=false"></iframe>
+        </div>
+    </div>    
+
+    <!-- CONTAINER PER CALENDARI MAGISTRALI -->     
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <h1>Calendari Magistrali</h1>
+        </div>
+        <div class="calendar-iframe">
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS4706Y2JNe3wj7NBCl8uV3e15lxjV4_XoPjZOeqaS23nBhDk9pDgrRm5lqjp3now/pubhtml?widget=true&amp;headers=false"></iframe>
         </div>
     </div>
 
